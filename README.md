@@ -1,9 +1,9 @@
 # graalvm macosX
 
-####Install GRAALVM
+#### Install GRAALVM
 brew install --cask  graalvm/tap/graalvm-ce-java11
 
-####
+#### xattr
 sudo xattr -r -d com.apple.quarantine /Library/Java/JavaVirtualMachines/graalvm-ce-java11-21.0.0
 
 #### install native image
